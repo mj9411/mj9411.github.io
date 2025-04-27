@@ -13,6 +13,7 @@ Controller controller = new Controller(service);
 ```
 
 ```java
+// new
 @Component
 public class Service {}
 
@@ -32,7 +33,8 @@ public class Controller {
 - **생성자를 통한 의존성 주입**
 -  필드 객체 선언을 통한 의존성 주입
 -  setter 메서드를 통한 의존성 주입
-##  관점 지향 프로그래밍(AOP)
+
+## 관점 지향 프로그래밍(AOP)
 - 중복되는 코드를 줄여보자, 목적에 해당되는 중복되는 코드를 걷어내서 사용하자
 1. 컴파일 과정에 삽입
 2. 바이트코드를 메모리에 로드하는 과정에 삽입하는 방식
@@ -41,9 +43,12 @@ public class Controller {
 # SpringBoot의 4가지 특성
 ## 의존성 관리 
 - spring-boot-starter
+
 ## 자동 설정 
 - springboot는 springframewark의 기능을 사용하기 위한 자동설정(AutoConfiguration)을 지원
+
 ## 내장 WAS 
 - spring-boot-starter-web 에 tomcat 내장
+
 ## 모니터링 
 - 스레드, 메모리, 세션 등 요소들 관리를 spring boot actuator 라는 자체 모니터링 도구에서 지원
