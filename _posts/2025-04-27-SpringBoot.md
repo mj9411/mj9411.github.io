@@ -1,7 +1,7 @@
 
 # Springframework 특징 3가지
 
-## 제어역전 IOC
+## 제어역전 IoC
 -  제어의 역전(IoC)은 **객체를 누가 만들고 관리하는가**
 -  스프링이 대신 객체를 생성하고 관리해줌
 -  개발자는 객체가 **필요하다는 것만** 표현하면 됨.
@@ -45,7 +45,7 @@ public class Controller {
 - spring-boot-starter
 
 ## 자동 설정 
-- springboot는 springframewark의 기능을 사용하기 위한 자동설정(AutoConfiguration)을 지원
+- springboot는 springframework의 기능을 사용하기 위한 자동설정(AutoConfiguration)을 지원
 
 ## 내장 WAS 
 - spring-boot-starter-web 에 tomcat 내장
