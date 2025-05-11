@@ -12,7 +12,7 @@ public String DeleteVariable(
 }
 ```
 
-#### @RequestParam을 호라용한 DELETE 메서드 구현 ??
+#### @RequestParam을 활용한 DELETE 메서드 구현 ??
 ```java
 //http://127.0.0.1:8080/api/v2/delete-api/request1?email=value  
 @DeleteMapping(value = "/request1")  
